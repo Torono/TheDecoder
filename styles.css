@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    min-height: 1vh;
+    align-items: center;
+    background: rgb(1, 56, 1);
+    justify-content: center;
+    font-family: 'calibri',sans-serif;
+}
+.container{
+    text-align: center;
+    background: white;
+    border-radius: 6px;
+    padding: 2rem;
+}
+output{
+    font: outline;
+    font-style: inherit;
+}
+button{
+    background: dimgray;
+    border-color: black;
+    min-height: 1vh;
+}
+button:hover{
+    text-shadow: 5rem;
+    cursor: pointer;
+    color: cornsilk;
+}
+input{
+    outline: black;
+    color: black;
+}
+
